@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  mailtest-web:
+    container_name: node_mailtest
+    build: ./mailtest
+ 
