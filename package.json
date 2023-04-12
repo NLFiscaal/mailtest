@@ -1,0 +1,15 @@
+{
+	"name": "mailtest",
+	"version": "1.0.0",
+	"description": "Mail test",
+	"main": "index.js",
+	"scripts": {
+		"start:dev": "npm --prefix ./mailtest run start:dev",
+		"start:project": "npm --prefix ./mailtest run start:project",
+		"start:test": "npm --prefix ./mailtest run start:test",
+		"start:doc": "jsdoc -c ./jsdoc-config.json",
+		"lint": "npm --prefix ./mailtest run lint"
+	},
+	"author": "J.W.M. Meijer",
+	"license": "ISC"
+}

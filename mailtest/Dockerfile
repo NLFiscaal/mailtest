@@ -1,4 +1,4 @@
-FROM node:16.13.1
+FROM node:lts-bullseye
 
 WORKDIR /usr/src/app
 
